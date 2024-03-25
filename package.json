@@ -1,0 +1,32 @@
+{
+  "name": "urban-goggles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron  src/main.js",
+    "dev": "nodemon --exec electron src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aesbetancourt/urban-goggles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aesbetancourt/urban-goggles/issues"
+  },
+  "homepage": "https://github.com/aesbetancourt/urban-goggles#readme",
+  "dependencies": {
+    "codemirror": "^5.48.0",
+    "electron": "^5.0.6",
+    "filbert": "^0.1.20",
+    "lexr": "^1.0.4",
+    "python-shell": "^1.0.7",
+    "sweetalert2": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
