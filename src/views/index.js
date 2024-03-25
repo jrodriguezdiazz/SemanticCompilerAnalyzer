@@ -81,6 +81,7 @@ function select_scanner() {
     callTranspiler();
   }
 }
+
 function runCode() {
   if (band === 1) {
     runPython();
